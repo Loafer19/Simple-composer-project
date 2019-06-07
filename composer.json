@@ -15,7 +15,8 @@
     },
     "autoload": {
         "psr-0": {
-            "HelloWorld": "src/"
+            "HelloWorld": "src/",
+            "Database": "src/"
         }
     }
 }
