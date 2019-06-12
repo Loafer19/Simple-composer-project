@@ -11,3 +11,6 @@ simple structure
 
 Posts:
 create and delete
+
+![](https://github.com/Loafer19/Simple-composer-project/blob/master/public/img/screenshot/main_page_12.6.2019.jpg)
+![](https://github.com/Loafer19/Simple-composer-project/blob/master/public/img/screenshot/create_post_modal_12.6.2019.jpg)
