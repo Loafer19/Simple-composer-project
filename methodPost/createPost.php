@@ -8,6 +8,8 @@ $db = MySQL::getInstance();
 
 $db->createPost($_POST);
 
+setcookie('action', 'Post created successfully!', 0, '/');
+
 if (headers_sent()) {
     die('<script type="text/javascript">window.location="/index.php"</script>');
 } else {

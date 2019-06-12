@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(0, 174, 255, 0.04) !important;
+    background-color: rgb(0, 123, 255, 0.04) !important;
+    overflow-y: scroll;
 }
 
 .card-header, .card-footer {
@@ -8,4 +9,28 @@ body {
 
 h5.card-title {
     margin-bottom: 0;
+}
+
+.notification {
+    position: fixed;
+    z-index: 10;
+    padding: 30px;
+    margin: 30px;
+    max-width: 500px;
+    background-color: #007BFF;
+    border-radius: 30px;
+    color: #fff;
+    float: right;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #FFC107;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #007BFF;
 }

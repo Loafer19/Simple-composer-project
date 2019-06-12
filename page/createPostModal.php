@@ -16,12 +16,12 @@
 
                     <div class="form-group">
                         <label for="exampleInputEmail1">Title</label>
-                        <input type="text" name="title" class="form-control" placeholder="Enter title">
+                        <input type="text" name="title" class="form-control" placeholder="Enter title" minlength="5" maxlength="30" required>
                     </div>
 
                     <div class="form-group">
                         <label for="comment">Description</label>
-                        <textarea class="form-control" rows="5" name="description" placeholder="Enter description"></textarea>
+                        <textarea class="form-control" rows="5" name="description" placeholder="Enter description"  minlength="5" maxlength="10000" required></textarea>
                     </div>
 
                 </div>
